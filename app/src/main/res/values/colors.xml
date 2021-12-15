@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--  Default Theme Color-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+    <!-- Light theme color palette !-->
+    <color name="persian_red">#392855</color><!--colorPrimary #D32F2F-->
+    <color name="white">@android:color/white</color><!--colorOnPrimary-->
+    <color name="sangria">#392855</color><!--colorPrimaryVariant #9A0007-->
+
+    <!-- dark theme color palette !-->
+    <color name="tonys_pink">#EF9A9A</color><!--colorPrimary-->
+    <color name="turkish_rose">#BA6B6C</color><!--colorPrimaryVariant-->
+
+    <!-- used in both the light and dark theme-->
+    <color name="chardonnay">#FFCC80</color><!--colorSecondary-->
+    <color name="black">@android:color/black</color><!--colorOnSecondary-->
+    <color name="portafino">#FFFFB0</color><!--colorSecondaryVariant-->
+
+    <color name="color_search_bg">#10171B</color>
+    <color name="bg_colorTwo">#AAA8C7</color>
+    <color name="bg_edittext">#575257</color>
+    <color name="bg_btn">#AAA8C7</color>
+
+    <color name="bg_botm_menu">#392855</color>
+    <color name="nav_icon_color">#C4EC9A</color>
+    <color name="nav_icon_color_selected">#FFFFFF</color>
+
+
+    <color name="textColorPrimaryWhite">@android:color/white</color>
+    <color name="textColorPrimaryBlack">#333333</color>
+    <color name="textColorPrimaryGreen">#C4EC9A</color>
+    <color name="textColorPrimaryBlue">#AAA8C7</color>
+    <color name="textColorPrimaryRed">#FF8DC5</color>
+    <color name="textColorSecondary">#747474</color>
+
+    <color name="bgColorBlue">#D1CFED</color>
+    <color name="bgColorBlue2">#9D5DCF</color>
+    <color name="bgColorRed">#F3ACCF</color>
+
+    <color name="colorBG_1">#C4EC9A</color>
+    <color name="colorBG_2">#FCF8F8</color>
+    <color name="colorBG_3">#FCF8F8</color>
+
+
+    <color name="colorBG_App">#FCF8F8</color>
+    <color name="colorBG_AppSecondary">#FFFFFF</color>
+
+
+    <color name="sepector">#AAA8C7</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuMore"
+        android:icon="@drawable/ic_more"
+        android:title="@string/nav_more"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuAward"
+        android:icon="@drawable/ic_award"
+        android:title="@string/nav_award"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuNotifications"
+        android:icon="@drawable/ic_notification"
+        android:iconTint="@color/white"
+        android:title="@string/nav_notifications"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuChallenge"
+        android:icon="@drawable/ic_challenge"
+        android:title="@string/nav_challenge"
+        app:showAsAction="always" />
+</menu>

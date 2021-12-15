@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "220794523447",
+    "project_id": "funquest-dc47b",
+    "storage_bucket": "funquest-dc47b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220794523447:android:63048bdf1ab9552e90d4b2",
+        "android_client_info": {
+          "package_name": "com.helloWorldTech.funQuest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220794523447-p09vsujdemubradp2ccupe4prlo7f7sh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.helloWorldTech.funQuest",
+            "certificate_hash": "62db89bc4a3fd10153b00f09c14463cc164b821a"
+          }
+        },
+        {
+          "client_id": "220794523447-58tjrjot37nf6l31g41lsa5rad5u1933.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAthEbzqkkoaygDGnNxMdzS1cPNdKkrKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220794523447-58tjrjot37nf6l31g41lsa5rad5u1933.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

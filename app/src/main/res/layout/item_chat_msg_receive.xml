@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/massage_receiver_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|left"
+        android:layout_marginStart="@dimen/spacing_xmedium"
+        android:layout_marginTop="@dimen/spacing_xmedium"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="@dimen/spacing_xmedium"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/AppMicroHeading"
+            android:textStyle="bold"
+            android:text="اهلا بكم أحتاج معرفة ميعاد التحدي القادم"
+            android:textColor="@color/white"
+            android:padding="@dimen/spacing_large"
+            android:background="@drawable/bg_chat_msg_receive"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_image"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="@dimen/spacing_xmedium"
+                android:src="@drawable/unknown_user"
+                android:layout_gravity="center"
+                android:elevation="1dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="0.5dp" />
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/AppSmallBoldHeading"
+                android:layout_width="wrap_content"
+                android:text="8:15"
+                android:textColor="@color/white"
+                android:layout_marginEnd="@dimen/spacing_xlarge"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</layout>

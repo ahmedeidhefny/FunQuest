@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="Home"
+            type="com.helloWorldTech.funQuest.data.remote.modelResponse.HomeApiResponse" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/lyt_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_auth">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/spacing_mlarge"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_xxlarge">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_create_challenge" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_createChallenge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_create_challenge"
+                    android:backgroundTint="@color/overlay_dark_50"
+                    android:padding="@dimen/spacing_mlarge">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        app:srcCompat="@drawable/ic_create_challenge" />
+
+                    <TextView
+                        style="@style/RecyclerHeading"
+                        android:text="@string/label_createChallege"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_join"
+                    android:layout_marginTop="@dimen/spacing_large"/>
+
+                <LinearLayout
+                    android:id="@+id/lyt_joinChallenge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_create_challenge"
+                    android:backgroundTint="@color/overlay_dark_50"
+                    android:padding="@dimen/spacing_mlarge">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        app:srcCompat="@drawable/ic_home_join" />
+
+                    <TextView
+                        style="@style/RecyclerHeading"
+                        android:text="@string/label_joinChallenge"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_award" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_award"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_create_challenge"
+                    android:backgroundTint="@color/overlay_dark_50"
+                    android:padding="@dimen/spacing_mlarge">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        app:srcCompat="@drawable/ic_home_awards" />
+
+                    <TextView
+                        style="@style/RecyclerHeading"
+                        android:text="@string/label_awards"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_support" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_techSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_support"
+                    android:backgroundTint="@color/overlay_dark_50"
+                    android:padding="@dimen/spacing_mlarge">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        app:srcCompat="@drawable/ic_home_technical" />
+
+                    <TextView
+                        style="@style/RecyclerHeading"
+                        android:text="@string/label_techical_support"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_help" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_help"
+                    android:backgroundTint="@color/overlay_dark_50"
+                    android:padding="@dimen/spacing_mlarge">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        app:srcCompat="@drawable/ic_home_help" />
+
+                    <TextView
+                        style="@style/RecyclerHeading"
+                        android:text="@string/label_help"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</layout>

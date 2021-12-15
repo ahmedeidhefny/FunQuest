@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Fun-Quest</string>
+
+    <string name="massage_no_internet">No Internet Connection</string>
+    <string name="massage_waiting">Please, Waiting some time...</string>
+    <string name="massage_not_supported">Not Supported Yet..</string>
+    <string name="some_error">Some Error Occurred!</string>
+
+    <string name="logo_content_des">App Logo</string>
+    <string name="doubleClick">Click again to Out App</string>
+
+    <string name="label_start">Start</string>
+    <string name="label_login">Login</string>
+    <string name="label_new_account">New Account</string>
+    <string name="label_register">Register</string>
+    <string name="label_save">Save</string>
+    <string name="label_already_have_account">Already Have Account ?</string>
+    <string name="label_agree_on">Agree on</string>
+    <string name="label_terms_condition">Terms And Condition</string>
+    <string name="label_reset_password">Reset Password</string>
+    <string name="label_forget_password">Forget Password ?</string>
+    <string name="label_resend_code">Re-send Code</string>
+    <string name="label_confirm">Confirm</string>
+
+    <string name="label_phone">Phone Number</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_old_password">Old Password</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="label_enter_send_code">Enter Send Code %s Secend left</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_bithOfDate">Birth Of Date</string>
+    <string name="label_invitation_code">Invitation Code</string>
+
+    <string name="label_city">City</string>
+    <string name="label_Place">Place</string>
+
+    <string name="label_english">English</string>
+    <string name="label_arabic">العربيه</string>
+
+
+    <string name="label_skip">Skip</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_edit">Edit</string>
+    <string name="label_add">Add</string>
+    <string name="label_shop_now">Shop Now</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_close">Close</string>
+    <string name="label_back">Back</string>
+    <string name="label_check">Check</string>
+    <string name="label_send">Send</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_more">More</string>
+    <string name="nav_challenge">Challenge</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_award">Award</string>
+
+    <string name="label_help">Help and Questions</string>
+    <string name="label_about_app">About Application</string>
+    <string name="label_call_us">Call Us</string>
+    <string name="label_share_app">Share The Application</string>
+    <string name="label_app_evaluation">Application evaluation</string>
+    <string name="label_logout">Logout</string>
+
+
+    <string name="label_createChallege">Create new challenge</string>
+    <string name="label_joinChallenge">Join to challenge</string>
+    <string name="label_awards">Awards</string>
+    <string name="label_techical_support">Technical Support</string>
+    <string name="label_last_visit">Last Visit On</string>
+    <string name="label_welcome">Welcome</string>
+
+
+    <string name="share_text">"
+        Order Now '%1$s'%n
+        Using app '%2$s'%n
+        http://play.google.com/store/apps/details?id=com.deliverygate.user"
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

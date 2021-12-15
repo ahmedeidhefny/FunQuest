@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/AppTheme.FunQuest.FullScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_auth"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.auth.register.OtpActivity">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/splashLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="@dimen/spacing_xmlarge">
+
+            <ImageView
+                android:id="@+id/iv_app_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/logo_content_des"
+                android:src="@drawable/app_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_loginTitle"
+                style="@style/AuthHeadingTitlePage"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:text="ُEnter your OTP"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_app_logo" />
+
+            <LinearLayout
+                android:id="@+id/inputs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_loginTitle">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:errorTextColor="@color/textColorPrimaryWhite"
+                    android:layout_marginTop="@dimen/spacing_mlarge"
+                    android:gravity="center">
+
+                    <com.chaos.view.PinView
+                        android:id="@+id/pin_view"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edittext"
+                        android:paddingStart="@dimen/spacing_mlarge"
+                        android:paddingEnd="@dimen/spacing_mlarge"
+                        android:paddingTop="@dimen/spacing_xmedium"
+                        android:paddingBottom="@dimen/spacing_xmedium"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:itemBackground="@color/bg_edittext"
+                        android:textColor="@color/textColorPrimaryGreen"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:cursorVisible="true"
+                        app:cursorColor="@color/textColorPrimaryWhite"
+                        app:cursorWidth="2dp"
+                        app:hideLineWhenFilled="false"
+                        app:itemCount="4"
+                        app:itemHeight="40dp"
+                        app:itemWidth="50dp"
+                        app:itemRadius="5dp"
+                        app:itemSpacing="0dp"
+                        android:textColorLink="@color/textColorPrimaryGreen"
+                        app:lineColor="@color/textColorPrimaryWhite"
+                        app:lineWidth="1dp"
+                        app:viewType="rectangle" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_send"
+                style="@style/ButtonStyle"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:background="@drawable/btn_bg_solid"
+                android:text="@string/label_send"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/inputs"
+                />
+
+            <TextView
+                android:id="@+id/tv_timer"
+                style="@style/AuthHeading"
+                android:text="@string/label_enter_send_code"
+                android:textColor="@color/textColorPrimaryGreen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_send"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/tv_reSendCode"
+                style="@style/AuthHeading"
+                android:text="@string/label_resend_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_timer"
+                android:layout_marginTop="@dimen/spacing_mlarge"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_baseline_reload"
+                android:drawablePadding="@dimen/spacing_middle"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

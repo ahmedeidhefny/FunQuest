@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="Type"
+            type="com.helloWorldTech.funQuest.data.remote.modelResponse.HomeApiResponse"
+            />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_type_card"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_margin="@dimen/spacing_xmedium"
+        app:cardCornerRadius="@dimen/spacing_large"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_city_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/bg_help" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/spacing_middle"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_city_name"
+                    style="@style/AppSmallBoldHeading"
+                    tools:text="Reiad" />
+
+                <TextView
+                    android:id="@+id/tv_cityNumber"
+                    style="@style/AppSmallHeading"
+                    android:textColor="@color/textColorPrimaryGreen"
+                    tools:text="3 city av" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+
+

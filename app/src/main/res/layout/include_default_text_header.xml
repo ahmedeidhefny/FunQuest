@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:id="@+id/lyt_default"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_homeTitle"
+            style="@style/AuthHeadingTitle"
+            android:text="Ready for Challenge ?"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/tv_homeDescription"
+            style="@style/AuthHeading"
+            android:text="Lots of challenges are waiting for you"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+</layout>

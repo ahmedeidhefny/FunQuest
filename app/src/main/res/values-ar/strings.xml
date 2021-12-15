@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fun-Quest</string>
+
+    <string name="massage_no_internet">لا يوجد اتصال بانترنت</string>
+    <string name="massage_waiting">من فضلك انتظر قليلا...</string>
+    <string name="massage_not_supported">غير مدعوم حاليا..</string>
+    <string name="some_error">لقد حدث خطأ!</string>
+
+    <string name="logo_content_des">App Logo</string>
+    <string name="doubleClick">إضغط مرة اخري للخروج</string>
+
+    <string name="label_start">ابدأ الآن</string>
+    <string name="label_login">تسجيل الدخول</string>
+    <string name="label_new_account">حساب جديد</string>
+    <string name="label_register">تسجيل</string>
+    <string name="label_save">حفظ</string>
+    <string name="label_already_have_account">لديك حساب بالفعل ؟ </string>
+    <string name="label_agree_on">أوافق على</string>
+    <string name="label_terms_condition">الشروط والأحكام</string>
+    <string name="label_reset_password">إستعادة كلمة المرور</string>
+    <string name="label_forget_password">نسيت كلمة المرور ؟</string>
+    <string name="label_confirm">تأكيد</string>
+    <string name="label_resend_code">اعاده ارسال الكود</string>
+
+    <string name="label_phone">رقم التلفون</string>
+    <string name="label_password">كلمه المرور</string>
+    <string name="label_confirm_password">تأكيد كلمة المرور</string>
+    <string name="label_new_password">كلمة المرور الجديده</string>
+    <string name="label_old_password">كلمة المرور القديمه</string>
+    <string name="label_change_password">تغير كلمة المرور</string>
+    <string name="label_enter_send_code"> ثانيه s% أدخل الكود المرسل</string>
+    <string name="label_name">الاسم</string>
+    <string name="label_email">البريد الالكتروني</string>
+    <string name="label_bithOfDate">تاريخ الميلاد</string>
+    <string name="label_invitation_code">كود الدعوه</string>
+
+    <string name="label_city">المدينه</string>
+    <string name="label_Place">المكان</string>
+
+    <string name="label_english">English</string>
+    <string name="label_arabic">العربيه</string>
+
+    <string name="label_skip">تخطى</string>
+    <string name="label_delete">مسح</string>
+    <string name="label_edit">تعديل</string>
+    <string name="label_add">اضافه</string>
+    <string name="label_shop_now">تسوق الأن</string>
+    <string name="label_check">فحص</string>
+    <string name="label_cancel">الغاء</string>
+    <string name="label_close">اغلاق</string>
+    <string name="label_back">رجوع</string>
+    <string name="label_send">مشاركه</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_more">More</string>
+    <string name="nav_challenge">Challenge</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_award">Award</string>
+
+    <string name="label_help"> المساعدات والاسئله</string>
+    <string name="label_about_app">عن التطبيق</string>
+    <string name="label_call_us">اتصل بنا</string>
+    <string name="label_share_app">شارك التطبيق</string>
+    <string name="label_app_evaluation">تقييم التطبيق</string>
+    <string name="label_logout">تسجيل الخروج</string>
+
+    <string name="label_createChallege">انشاء تحدى جديد</string>
+    <string name="label_joinChallenge">انضم الى تحدى</string>
+    <string name="label_awards">المكافئات</string>
+    <string name="label_techical_support">الدعم الفنى</string>
+    <string name="label_last_visit">اخر زياره يوم</string>
+    <string name="label_welcome">مرحبا</string>
+
+    <string name="share_text">"
+        Order Now '%1$s'%n
+        Using app '%2$s'%n
+        http://play.google.com/store/apps/details?id=com.deliverygate.user"
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

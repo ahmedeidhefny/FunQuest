@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_raduis_bottom_only"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/lyt_main_headr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/rl_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/spacing_large">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:src="@drawable/unknown_user"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/AppSmallBoldHeading"
+                        android:textColor="@color/textColorPrimaryGreen"
+                        android:text="Welcome Ahmed" />
+
+                    <TextView
+                        android:id="@+id/tv_subName"
+                        style="@style/AppSmallHeading"
+                        android:textColor="@color/textColorPrimaryWhite"
+                        android:text="Last Visit on 29/11/2021" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_message"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/spacing_large"
+               android:layout_marginEnd="@dimen/spacing_large"
+               android:layout_marginBottom="@dimen/spacing_mlarge">
+
+               <include
+                   android:visibility="gone"
+                   android:id="@+id/include_defaultText"
+                   layout="@layout/include_default_text_header" />
+
+
+               <include
+                   android:visibility="visible"
+                   android:id="@+id/include_liveChallenge"
+                   layout="@layout/include_header_live_challenge" />
+
+           </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</layout>
